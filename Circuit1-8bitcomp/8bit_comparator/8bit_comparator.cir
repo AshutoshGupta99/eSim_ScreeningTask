@@ -1,0 +1,23 @@
+* C:\Users\Ashutosh\eSim-Workspace\8bit_comparator\8bit_comparator.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 02/21/21 21:30:07
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U1  Net-_U1-Pad1_ Net-_U1-Pad2_ Net-_U1-Pad3_ Net-_U1-Pad4_ Net-_U1-Pad5_ Net-_U1-Pad6_ Net-_U1-Pad7_ Net-_U1-Pad8_ Net-_U1-Pad9_ Net-_U1-Pad10_ Net-_U1-Pad11_ Net-_U1-Pad12_ Net-_U1-Pad13_ Net-_U1-Pad14_ Net-_U1-Pad15_ Net-_U1-Pad16_ Net-_U1-Pad17_ Net-_U1-Pad18_ Net-_U1-Pad19_ comparator		
+U4  Net-_U1-Pad17_ Net-_U1-Pad18_ Net-_U1-Pad19_ less equal greater dac_bridge_3		
+R3  less GND 1K		
+R2  equal GND 1K		
+R1  greater GND 1K		
+U7  less plot_v1		
+U6  equal plot_v1		
+U5  greater plot_v1		
+U2  Net-_U2-Pad1_ Net-_U2-Pad1_ Net-_U2-Pad1_ Net-_U2-Pad1_ Net-_U2-Pad1_ Net-_U2-Pad1_ GND GND Net-_U1-Pad1_ Net-_U1-Pad2_ Net-_U1-Pad3_ Net-_U1-Pad4_ Net-_U1-Pad5_ Net-_U1-Pad6_ Net-_U1-Pad7_ Net-_U1-Pad8_ adc_bridge_8		
+U3  Net-_U3-Pad1_ Net-_U3-Pad1_ Net-_U3-Pad1_ GND Net-_U3-Pad5_ GND Net-_U3-Pad5_ Net-_U3-Pad5_ Net-_U1-Pad9_ Net-_U1-Pad10_ Net-_U1-Pad11_ Net-_U1-Pad12_ Net-_U1-Pad13_ Net-_U1-Pad14_ Net-_U1-Pad15_ Net-_U1-Pad16_ adc_bridge_8		
+v1  Net-_U2-Pad1_ GND 5V		
+v2  Net-_U3-Pad1_ GND 5V		
+v3  Net-_U3-Pad5_ GND 5V		
+
+.end
